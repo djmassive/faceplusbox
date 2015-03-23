@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Faceplusbox : FacePlusBOX">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Faceplusbox</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/djmassive/faceplusbox">View on GitHub</a>
+
+          <h1 id="project_title">Faceplusbox</h1>
+          <h2 id="project_tagline">FacePlusBOX</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/djmassive/faceplusbox/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/djmassive/faceplusbox/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Plugin dodający do Twojej strony www slidebox z okienkiem facebooka.</p>
+
+<p>Sprawdź również nasz plugin do informacji o cookies: JQuery Cookie Window Information</p>
+
+<p>Instalacja
+Wstaw poniższy kod zaraz przed zakończeniem nagłówka HEAD:</p>
+
+<p><code>&lt;script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"&gt;&lt;/script&gt;</code>
+<code>&lt;script src="/faceplusbox/faceplusbox.js" type="text/javascript"&gt;&lt;/script&gt;</code>
+<code>&lt;script type="text/javascript"&gt;</code>
+<code>$(document).ready(function() {</code></p>
+
+<pre><code>    `$("body").FacePlusBOX({ `
+            `fbkey:          "http://facebook.com/avatecpl",`
+            `theme:          "mini",`
+            `color:          "blue",`
+            `position:       "left",`
+            `top:            "10px",`
+            `fadeSpeed:      800,`
+            `pathname:       "http://www.avatec.pl/faceplusbox/" `
+    `});`
+</code></pre>
+
+<p><code>});</code>
+<code>&lt;/script&gt;</code></p>
+
+<blockquote>
+<p>w zmiennej fbkey wprowadź adres twojej strony na facebooku - w zmiennej color wybierz kolor Twojego FaceLike? BOX'a (black, blue, yellow, orange, silver, green) - w zmiennej position ustaw pozycję (left, right) - w zmiennej top ustaw odstęp od góry - w zmiennej pathname ustaw pełną ścieżkę do skryptu FaceLike</p>
+</blockquote>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Faceplusbox maintained by <a href="https://github.com/djmassive">djmassive</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
